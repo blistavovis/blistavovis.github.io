@@ -20,7 +20,8 @@
 padding: 8 16 ;
 padding-left: 19px;
 padding-right: 19px;
-
+overflow: hidden;
+white-space: nowrap;
     margin:15px;
     background-color: #1886ed;
     color: azure;
