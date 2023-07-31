@@ -1,32 +1,112 @@
 <!DOCTYPE html>
-<html lang = "sr">
-    <head>
-        <meta charset="utf-8">
-        <title>Blistavo ViS</title>
-<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-<header id="main_header"><h1>Blistavo ViS</h1><h3>Agencija za čišćenje</h3></Header>
-    <div id="wrapper">
-    <section>
-        Usluge koje nudimo:
-        <ul>
-            <li>čišćenje stambenih zgrada, kuća  i prostorija</li>
-            <li>čišćenje poslovinih zgrada i prostorija</li>
-            <li> jednokratna čišćenja</li>
-            <li> redovna čišćenja</li>
-            <li> pranje prozora</li>
-            <li>čišćenja nakon završnih građevinskih radova</li>
-            <li> čišćenja nakon proslava i ostalih posebnih događaja</li>
-            <li> pranje sudova</li>
-        </ul>
-        <p>Usluge pružamo na teritoriji Beograda.</p>
-       
-            <div class="dg">tel. 063 161 24 13</div>
-        
-            <div class="dg">eMail</div></section>
-     
-    </section>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-color:darkslategrey;
+  background-image: url("woman-5928694_960_720.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+
+
+</style>
+</head>
+
+<!-- Header with image -->
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-row">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black">O nama</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#menu" class="w3-button w3-block w3-black">Usluge</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#contact" class="w3-button w3-block w3-black">Kontakt</a>
+      </div>
     </div>
-    </body>
+  </div>
+  <div class="w3-row">
+    <div class="w3-half w3-container ">
+      <div  style="height: min-content;">
+        <span class="w3-text-black e" style="font-size:80px">Blistavo ViS</span>
+        <br>
+        <span class="w3-text-black " style="flex-wrap:nowrap;font-size:45px;">agencija za ciscenje</span>
+      </div>
+    </div>
+    <div class="w3-half w3-container">
+      <a href="tel:0631612413" class="w3-btn w3-block w3-black"style="margin:20px;">063/161-24-13</a>
+    </div>
+  </div> 
+
+  </header>
+
+
+
+
+</header>
+<body>
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">O Nama</span></h5>
+    <p>Agencija Blistavo ViS bavi se ciscenjem stabmenih i poslovnih prostora na teritoriji Beograda. Uz nas profesionalni tim radnika imacete blistavo, cisto i zdravo okruzenje.
+      Mi nudimo raznovrsan izbor usluga, takodje uvek smo raspolozeni da se prilagodimo zahtevima nasih klijenata. Probajte nase usluge i uverite se da ce te biti zadovoljni kao i mnogi do sad.
+    </p>
+    
+  </div>
+</div>
+
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Usluge</span></h5>
+    <ul>
+      <li>Čišćenje stambenih zgrada, kuća  i prostorija</li>
+      <li>Čišćenje poslovinih zgrada i prostorija</li>
+      <li>Jednokratna čišćenja</li>
+      <li>Redovna čišćenja</li>
+      <li>Pranje prozora</li>
+      <li>Čišćenja nakon proslava i ostalih posebnih događaja</li>
+      <li>Pranje sudova</li>
+    </ul>
+
+
+  <div class="w3-container" id="contact">  
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Kontakt</span></h5>
+    <div class="w3-row w3-center"> 
+    <p class="w3-col w3-center" >tel</p>
+    <div class="w3-half w3-container w3-col w3-center">
+      <a href="tel:0631612413" class="w3-btn w3-block w3-black"style="margin:20px;">063/161-24-13</a>
+    
+    
+    <p class="w3-col w3-center">email</p>
+    </div>
+    <p class="w3-col w3-center"><strong>radno vreme:</strong> svakim danom od 08h do 20 h.</p>
+    
+  </div>
+  </div>
+</div>
+</div>
+</body>
 </html>
